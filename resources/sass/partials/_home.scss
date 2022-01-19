@@ -1,0 +1,49 @@
+section{
+    
+    .container{
+
+        width: 75%;
+        padding-top: 80px;
+        margin: 0px auto;
+
+        .cards {
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+
+            li{
+                margin: 15px 10px;
+
+                img{
+                    width: 190px;
+                    height: 190px;
+                    object-fit: cover;
+                    object-position: right top;
+                }
+            
+                .text{
+                    width: 190px;
+                    margin: 10px 0;
+                    text-transform: uppercase;
+                }
+            }
+        
+            
+        }
+
+        .btn-container{
+            display: flex;
+            justify-content: center; 
+
+            .main-button{
+                text-transform: uppercase;
+                color: white;
+                font-weight: bold;
+                background-color: $col-blu;
+                border: none;
+                padding: 10px 60px;
+                margin-bottom: 50px;
+            }
+          } 
+    }
+}

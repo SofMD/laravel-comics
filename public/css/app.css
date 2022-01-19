@@ -15,6 +15,11 @@ a {
   color: currentColor;
 }
 
+main {
+  background-color: #1c1c1c;
+  color: white;
+}
+
 .d-fl {
   display: flex;
 }
@@ -48,10 +53,56 @@ header .container .nav a {
 }
 
 header .container .nav a.active {
-  padding-bottom: 62px;
+  padding-bottom: 42px;
   color: #0182f9;
   font-weight: bold;
   border-bottom: 3px solid #0182f9;
+}
+
+section .container {
+  width: 75%;
+  padding-top: 80px;
+  margin: 0px auto;
+}
+
+section .container .cards {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .container .cards li {
+  margin: 15px 10px;
+}
+
+section .container .cards li img {
+  width: 190px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right top;
+     object-position: right top;
+}
+
+section .container .cards li .text {
+  width: 190px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+section .container .btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+section .container .btn-container .main-button {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background-color: #0182f9;
+  border: none;
+  padding: 10px 60px;
+  margin-bottom: 50px;
 }
 
 footer {
