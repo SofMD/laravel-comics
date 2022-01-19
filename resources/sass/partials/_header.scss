@@ -1,0 +1,28 @@
+header {
+    .container{
+        
+        width: 70%;
+        margin: 0 auto;
+        padding: 15px;
+        align-items: center;
+
+        img{
+            width: 80px;
+            margin-right: 50px;
+        }
+
+
+        .nav{
+            a{
+                margin: 0 15px;
+
+                &.active{
+                    padding-bottom: 62px;
+                    color: $col-blu;
+                    font-weight: bold;
+                    border-bottom: 3px solid $col-blu;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+footer{
+    background-color: $foot-color;
+    border-top: 20px solid $col-blu;
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+        align-items: center;
+
+        button {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background: transparent;
+            padding: 12px 12px;
+            border: solid 2px $col-blu;
+        }
+
+        .footerright{
+            align-items: center;
+
+            h3 {
+                color: $col-blu;
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            li {
+                margin-left: 15px;
+            }
+        }
+    }
+}
