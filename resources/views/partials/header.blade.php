@@ -6,8 +6,8 @@
 
         {{-- navigazione --}}
         <div class="nav">
-            <a href="/">COMICS</a>
-            <a href="/">NEWS</a>
+            <a href="{{ route('home') }}">COMICS</a>
+            <a href="{{ route('news') }}">NEWS</a>
         </div>
     </div>
 
