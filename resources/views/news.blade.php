@@ -1,6 +1,5 @@
 @extends('layouts.main')
 
 @section('main-content')
-
-     contenuto per news
+pagina news
 @endsection

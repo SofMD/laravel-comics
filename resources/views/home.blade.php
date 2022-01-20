@@ -2,13 +2,16 @@
 
 @section('main-content')
 
-<section>
+<section class="homecontainer">
     <div class="container">
         <ul class="cards">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
             <li class="li-st">
-                <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
-                <div class="text">{{$comic['series']}}</div>
+                <a href="{{ route('comics-info', ['id' => $index] )}}">
+                    <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                    <div class="text">{{$comic['series']}}</div>
+                </a>
+                
             </li>
                 
             @endforeach

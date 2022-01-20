@@ -1,0 +1,50 @@
+.newsTop{
+    height: 500px;
+    background-image: url("../images/jumbotron.jpg");
+    border-bottom: 70px solid $col-blu;
+    position: relative;
+
+    .comixcont{
+      position: absolute;
+      bottom: -30px;
+      left: 20%;
+
+      img{
+          height: 300px;
+          width: auto;
+      }
+    }
+}
+
+
+.classbottom{
+    padding: 100px;
+    width: 70%;
+    margin: 0 auto;
+
+    .left{
+        width: 60%;
+        h2{
+            color: #08415c;
+            font-size: 2.2rem;
+        }
+    
+        p{
+            margin-top: 30px;
+            color: grey;
+        }
+    }
+
+    .right{
+        text-align: end;
+        width: 40%;
+
+        .adv{
+            font-size: 0.9rem;
+            color: grey;
+            text-align: end;
+            font-weight: bold;
+        }
+    }
+
+}

@@ -1,11 +1,15 @@
-//
+//general
 @import "partials/vars";
 
 @import "partials/default";
 
 @import "partials/utilities";
 
-
+// homepage
 @import "partials/header";
 @import "partials/home";
 @import "partials/footer";
+
+
+// news
+@import "partials/comicspage";
