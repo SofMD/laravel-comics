@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
 @section('main-content')
-pagina news
+<div class="containerNews">
+    <h1>NESSUNA NOTIZIA AL MOMENTO</h1>
+</div>
 @endsection

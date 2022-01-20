@@ -1,4 +1,4 @@
-.newsTop{
+.infoTop{
     height: 500px;
     background-image: url("../images/jumbotron.jpg");
     border-bottom: 70px solid $col-blu;
@@ -10,7 +10,7 @@
       left: 20%;
 
       img{
-          height: 300px;
+          height: 350px;
           width: auto;
       }
     }
@@ -30,8 +30,20 @@
         }
     
         p{
-            margin-top: 30px;
+            margin-top: 20px;
             color: grey;
+        }
+
+        .greenBar{
+            padding: 15px 25px;
+            margin-top: 20px;
+            background-color: $info-bar;
+            color: #96ed8c;
+            font-weight: bold;
+
+            span{
+                color: white;
+            }
         }
     }
 
